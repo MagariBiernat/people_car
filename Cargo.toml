@@ -1,0 +1,19 @@
+[package]
+name = "backend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+warp = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+env_logger = "0.8"
+log = "0.4"
+derive_more = "0.99.17"
+serde_json = "1.0"
+rand = "0.8.0"
+vin = "1.0.0"
+dotenv = "0.15.0"
+config = "0.10.1"
