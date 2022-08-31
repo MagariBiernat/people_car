@@ -2,6 +2,7 @@
 
 Simple api build with Rust and Actix Web Framework
 
+________________________
 It has two endpoints
 
 /calculateDisselUsageForDistance
@@ -28,7 +29,7 @@ returns a number with probability of unit failure.
 
 
 
-~~~
+________________________
 
 To run code,
 file .env must be created in root folder with 2 variables
@@ -40,5 +41,3 @@ SERVER.PORT=8080
 also, cargo must be installed
 then simply run command
 cargo run
-
-~~~
